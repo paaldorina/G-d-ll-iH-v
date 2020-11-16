@@ -2,6 +2,7 @@ body{
   background-repeat: repeat-y;
   background-position: left;
   padding: 10px 40px 10px 110px;
+  background-image: url(sin.png);
 }
 
 
@@ -22,6 +23,7 @@ h1, h2{
   -ms-transform: rotate(3deg); /* IE 9 */
   -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
   transform: rotate(3deg);
+  float: right;
 }
 
 #urlap{
@@ -30,4 +32,8 @@ h1, h2{
   text-align: center;
   margin: 10px 100px;
   padding: 10px;
+}
+
+p {
+  text-align: justify;
 }

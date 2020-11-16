@@ -53,7 +53,7 @@
         <h3>
             Menetidő számítás
         </h3>
-        <form action=""><select>
+        <form action="code.js"><select id="inputIndulas">
                 <option value="0" selected>Gödöllő</option>
                 <option value="2">Gödöllő, Palotakert</option>
                 <option value="4">Gödöllő, Szabadság tér</option>
@@ -75,7 +75,7 @@
                 <option value="45">Rákosfalva</option>
                 <option value="48">Örs vezér tere</option>
             </select>
-            <select>
+            <select id="inputErkezes">
                 <option value="0">Gödöllő</option>
                 <option value="2">Gödöllő, Palotakert</option>
                 <option value="4">Gödöllő, Szabadság tér</option>
@@ -97,9 +97,9 @@
                 <option value="45">Rákosfalva</option>
                 <option value="48" selected>Örs vezér tere</option>
             </select>
-            <input type="submit" value="Menetidő"></form>
+            <input type="button" onclick="menetido();" value="Menetidő"></form>
     </div>
-
+    <script src="code.js"></script>
 
 </body>
 
